@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3884627F258283240052C6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3884627E258283240052C6F7 /* AppDelegate.swift */; };
+		38846281258283240052C6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38846280258283240052C6F7 /* SceneDelegate.swift */; };
+		38846283258283240052C6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38846282258283240052C6F7 /* ViewController.swift */; };
+		38846286258283240052C6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38846284258283240052C6F7 /* Main.storyboard */; };
+		38846288258283250052C6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38846287258283250052C6F7 /* Assets.xcassets */; };
+		3884628B258283250052C6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38846289258283250052C6F7 /* LaunchScreen.storyboard */; };
+		38846296258283250052C6F7 /* emoTenkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38846295258283250052C6F7 /* emoTenkiTests.swift */; };
+		388462A1258283250052C6F7 /* emoTenkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388462A0258283250052C6F7 /* emoTenkiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38846292258283250052C6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38846273258283240052C6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3884627A258283240052C6F7;
+			remoteInfo = emoTenki;
+		};
+		3884629D258283250052C6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38846273258283240052C6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3884627A258283240052C6F7;
+			remoteInfo = emoTenki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3884627B258283240052C6F7 /* emoTenki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoTenki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3884627E258283240052C6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38846280258283240052C6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38846282258283240052C6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38846285258283240052C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38846287258283250052C6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3884628A258283250052C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3884628C258283250052C6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38846291258283250052C6F7 /* emoTenkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emoTenkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38846295258283250052C6F7 /* emoTenkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoTenkiTests.swift; sourceTree = "<group>"; };
+		38846297258283250052C6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3884629C258283250052C6F7 /* emoTenkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emoTenkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388462A0258283250052C6F7 /* emoTenkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoTenkiUITests.swift; sourceTree = "<group>"; };
+		388462A2258283250052C6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38846278258283240052C6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3884628E258283250052C6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38846299258283250052C6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38846272258283240052C6F7 = {
+			isa = PBXGroup;
+			children = (
+				3884627D258283240052C6F7 /* emoTenki */,
+				38846294258283250052C6F7 /* emoTenkiTests */,
+				3884629F258283250052C6F7 /* emoTenkiUITests */,
+				3884627C258283240052C6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3884627C258283240052C6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3884627B258283240052C6F7 /* emoTenki.app */,
+				38846291258283250052C6F7 /* emoTenkiTests.xctest */,
+				3884629C258283250052C6F7 /* emoTenkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3884627D258283240052C6F7 /* emoTenki */ = {
+			isa = PBXGroup;
+			children = (
+				3884627E258283240052C6F7 /* AppDelegate.swift */,
+				38846280258283240052C6F7 /* SceneDelegate.swift */,
+				38846282258283240052C6F7 /* ViewController.swift */,
+				38846284258283240052C6F7 /* Main.storyboard */,
+				38846287258283250052C6F7 /* Assets.xcassets */,
+				38846289258283250052C6F7 /* LaunchScreen.storyboard */,
+				3884628C258283250052C6F7 /* Info.plist */,
+			);
+			path = emoTenki;
+			sourceTree = "<group>";
+		};
+		38846294258283250052C6F7 /* emoTenkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				38846295258283250052C6F7 /* emoTenkiTests.swift */,
+				38846297258283250052C6F7 /* Info.plist */,
+			);
+			path = emoTenkiTests;
+			sourceTree = "<group>";
+		};
+		3884629F258283250052C6F7 /* emoTenkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388462A0258283250052C6F7 /* emoTenkiUITests.swift */,
+				388462A2258283250052C6F7 /* Info.plist */,
+			);
+			path = emoTenkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3884627A258283240052C6F7 /* emoTenki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388462A5258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenki" */;
+			buildPhases = (
+				38846277258283240052C6F7 /* Sources */,
+				38846278258283240052C6F7 /* Frameworks */,
+				38846279258283240052C6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emoTenki;
+			productName = emoTenki;
+			productReference = 3884627B258283240052C6F7 /* emoTenki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38846290258283250052C6F7 /* emoTenkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388462A8258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenkiTests" */;
+			buildPhases = (
+				3884628D258283250052C6F7 /* Sources */,
+				3884628E258283250052C6F7 /* Frameworks */,
+				3884628F258283250052C6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38846293258283250052C6F7 /* PBXTargetDependency */,
+			);
+			name = emoTenkiTests;
+			productName = emoTenkiTests;
+			productReference = 38846291258283250052C6F7 /* emoTenkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3884629B258283250052C6F7 /* emoTenkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388462AB258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenkiUITests" */;
+			buildPhases = (
+				38846298258283250052C6F7 /* Sources */,
+				38846299258283250052C6F7 /* Frameworks */,
+				3884629A258283250052C6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3884629E258283250052C6F7 /* PBXTargetDependency */,
+			);
+			name = emoTenkiUITests;
+			productName = emoTenkiUITests;
+			productReference = 3884629C258283250052C6F7 /* emoTenkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38846273258283240052C6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3884627A258283240052C6F7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					38846290258283250052C6F7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3884627A258283240052C6F7;
+					};
+					3884629B258283250052C6F7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3884627A258283240052C6F7;
+					};
+				};
+			};
+			buildConfigurationList = 38846276258283240052C6F7 /* Build configuration list for PBXProject "emoTenki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38846272258283240052C6F7;
+			productRefGroup = 3884627C258283240052C6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3884627A258283240052C6F7 /* emoTenki */,
+				38846290258283250052C6F7 /* emoTenkiTests */,
+				3884629B258283250052C6F7 /* emoTenkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38846279258283240052C6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3884628B258283250052C6F7 /* LaunchScreen.storyboard in Resources */,
+				38846288258283250052C6F7 /* Assets.xcassets in Resources */,
+				38846286258283240052C6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3884628F258283250052C6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3884629A258283250052C6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38846277258283240052C6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38846283258283240052C6F7 /* ViewController.swift in Sources */,
+				3884627F258283240052C6F7 /* AppDelegate.swift in Sources */,
+				38846281258283240052C6F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3884628D258283250052C6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38846296258283250052C6F7 /* emoTenkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38846298258283250052C6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388462A1258283250052C6F7 /* emoTenkiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38846293258283250052C6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3884627A258283240052C6F7 /* emoTenki */;
+			targetProxy = 38846292258283250052C6F7 /* PBXContainerItemProxy */;
+		};
+		3884629E258283250052C6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3884627A258283240052C6F7 /* emoTenki */;
+			targetProxy = 3884629D258283250052C6F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38846284258283240052C6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38846285258283240052C6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38846289258283250052C6F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3884628A258283250052C6F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388462A3258283250052C6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388462A4258283250052C6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388462A6258283250052C6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388462A7258283250052C6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388462A9258283250052C6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenkiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emoTenki.app/emoTenki";
+			};
+			name = Debug;
+		};
+		388462AA258283250052C6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenkiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emoTenki.app/emoTenki";
+			};
+			name = Release;
+		};
+		388462AC258283250052C6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emoTenki;
+			};
+			name = Debug;
+		};
+		388462AD258283250052C6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JW9RR8FC8;
+				INFOPLIST_FILE = emoTenkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daisuke.emoTenkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emoTenki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38846276258283240052C6F7 /* Build configuration list for PBXProject "emoTenki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388462A3258283250052C6F7 /* Debug */,
+				388462A4258283250052C6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388462A5258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388462A6258283250052C6F7 /* Debug */,
+				388462A7258283250052C6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388462A8258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388462A9258283250052C6F7 /* Debug */,
+				388462AA258283250052C6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388462AB258283250052C6F7 /* Build configuration list for PBXNativeTarget "emoTenkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388462AC258283250052C6F7 /* Debug */,
+				388462AD258283250052C6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38846273258283240052C6F7 /* Project object */;
+}
